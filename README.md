@@ -1,11 +1,61 @@
 ## Casting Agency Project
 
-Udacity Full-Stack Web Developer Nanodegree Program Capstone Project
+The Casting Agency Project is a comprehensive web application designed to manage a fictional movie production company. It serves as a platform to streamline the process of creating, managing, and assigning actors to movies. The project is the capstone for the Udacity Full-Stack Web Developer Nanodegree Program and demonstrates mastery of full-stack web development concepts and tools.
 
-## Project Motivation
-The Casting Agency Project models a company that is responsible for creating movies and managing and assigning actors to those movies. You are an Executive Producer within the company and are creating a system to simplify and streamline your process.
+## Project Purpose
 
-This project is simply a workspace for practicing and showcasing different set of skills related with web development. These include data modelling, API design, authentication and authorization and cloud deployment.
+The purpose of this project is to provide a system that enables the efficient handling of key tasks within a casting agency, such as managing movies, actors, and their associations. It also showcases the integration of backend and frontend components to build a seamless, functional, and user-friendly application.
+
+This project allows for the practical application of skills learned during the Nanodegree program, including API design, database management, authentication, and role-based access control.
+
+## Key Functionalities
+	
+## Actor Management:
+
+Add, update, and delete actors.
+View a list of all actors with their details.
+
+## Movie Management:
+
+Add, update, and delete movies.
+View a list of all movies with details such as title, release date, and associated actors.
+
+## Actor-Movie Association:
+
+Assign actors to movies.
+Display relationships between actors and their assigned movies.
+
+## Role-Based Access Control (RBAC):
+
+## Users are assigned roles with specific permissions:
+
+Casting Assistant: Can view actors and movies.
+Casting Director: Can view actors and movies, as well as add, update, or delete actors and assign them to movies.
+Executive Producer: Can perform all actions, including managing movies.
+
+## Authentication:
+
+Secure login using third-party services (e.g., Auth0).
+Only authenticated users can access the system, with features restricted based on their roles.
+
+## API Integration:
+
+Provides a well-documented RESTful API for interacting with the system.
+Includes endpoints for managing movies, actors, and their relationships.
+Database Management:
+
+Uses a relational database to store information about movies, actors, and their associations.
+Implements migrations for database schema management.
+
+## Error Handling:
+
+Comprehensive error messages for invalid requests or unauthorized access.
+
+## Testing:
+
+Includes automated tests for API endpoints and database functionality to ensure reliability.
+
+
 
 ## Getting Started
 
@@ -413,3 +463,6 @@ The API will return three error types when requests fail:
 		}
 	}
 	```
+
+## Deployed project URL
+	https://fsdc-capstone.onrender.com
