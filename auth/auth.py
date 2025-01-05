@@ -6,12 +6,10 @@ from urllib.request import urlopen
 import os
 
 
-# AUTH0_DOMAIN = os.environ['AUTH0_DOMAIN']
-# ALGORITHMS = [os.environ['ALGORITHMS']]
-# API_AUDIENCE = os.environ['API_AUDIENCE']
-AUTH0_DOMAIN = "capstone.us.auth0.com"
-ALGORITHMS = "SHA-256"
-API_AUDIENCE = "drinks"
+AUTH0_DOMAIN = os.getenv("AUTH0_DOMAIN")
+ALGORITHMS = os.getenv("ALGORITHMS")
+API_AUDIENCE = os.getenv("API_AUDIENCE")
+
 
 
 
